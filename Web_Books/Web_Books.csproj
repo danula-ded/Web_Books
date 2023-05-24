@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\background.jpg" />
+    <Content Remove="wwwroot\css\book1.jpg" />
+    <Content Remove="wwwroot\css\book8.jpg" />
+  </ItemGroup>
+
+</Project>
